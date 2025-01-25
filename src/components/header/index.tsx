@@ -1,34 +1,21 @@
-import Image from "next/image";
-import { Contact, NavbarItem } from "./components";
+"use client";
+
+import { useState } from "react";
+import { DesktopMenu, MobileMenu } from "./components";
 
 export function Header() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
   return (
-    <header className="flex fixed top-3 w-full z-50">
-      <div className="flex justify-between mx-auto w-[62.5rem] max-w-[98%] border border-[#324654] bg-[rgba(0,0,0,.7)] backdrop-blur-md p-1.5 rounded-full">
-        <div className="flex items-center gap-2 select-none">
-          <span className="flex h-8 w-8 relative rounded-full overflow-hidden">
-            <Image
-              alt="Perfil"
-              src="https://avatars.githubusercontent.com/u/60114211"
-              fill
-              priority
-            />
-          </span>
-
-          <h1 className="font-semibold text-base">Matheus Sena Rosa</h1>
-        </div>
-
-        <nav className="items-center mr-8 hidden lg:flex">
-          <ul className="flex gap-4">
-            <NavbarItem text="Início" />
-            <NavbarItem text="Sobre Mim" />
-            <NavbarItem text="Portfólio" />
-            <NavbarItem text="Experiências" />
-          </ul>
-        </nav>
-
-        <Contact />
+    <>
+      <div className="flex fixed top-0 w-full z-50 gap-4 sm:top-3 sm:px-2 sm:pl-8">
+        <DesktopMenu onOpenMobileMenu={() => setIsMobileMenuOpen(true)} />
       </div>
-    </header>
+
+      <MobileMenu
+        isOpen={isMobileMenuOpen}
+        onOpenMobileMenu={() => setIsMobileMenuOpen(false)}
+      />
+    </>
   );
 }

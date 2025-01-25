@@ -11,7 +11,8 @@ export const projects = [
       <img
         src="guruja.jpg"
         alt="Guruja"
-        className="h-full w-full object-cover"
+        draggable="false"
+        className="h-full w-full object-cover select-none"
       />
     ),
   },
@@ -22,8 +23,8 @@ export const projects = [
     description:
       "Plataforma desenvolvida em React.js voltada a gestão e administração.",
     imgElement: () => (
-      <div className="h-[13rem] flex items-center justify-center pb-[3rem]">
-        <img src="universal.jpg" alt="Universal" />
+      <div className="h-[13rem] flex items-center justify-center pb-[3rem] select-none">
+        <img src="universal.jpg" alt="Universal" draggable="false" />
       </div>
     ),
   },
@@ -34,8 +35,8 @@ export const projects = [
     description:
       "Plataforma desenvolvida em Next.js que avalia o desempenho de políticos brasileiros.",
     imgElement: () => (
-      <div className="h-[13rem] flex items-center justify-center bg-[#d9d9d9] pb-[3rem]">
-        <img src="ranking.png" alt="Ranking dos Políticos" />
+      <div className="h-[13rem] flex items-center justify-center bg-[#d9d9d9] pb-[3rem] select-none">
+        <img src="ranking.png" alt="Ranking dos Políticos" draggable="false" />
       </div>
     ),
   },
@@ -48,7 +49,12 @@ export const projects = [
     cardBackground: `#1b1c24`,
     imgElement: () => (
       <div className="h-[13rem] flex items-center justify-center pb-[3rem] bg-[#1b1c24]">
-        <img src="afpesp.png" alt="AFPESP" className="size-[8rem]" />
+        <img
+          src="afpesp.png"
+          alt="AFPESP"
+          draggable="false"
+          className="size-[8rem] select-none drag"
+        />
       </div>
     ),
   },

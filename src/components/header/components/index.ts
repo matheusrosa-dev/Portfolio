@@ -1,2 +1,2 @@
-export { NavbarItem } from "./navbar-item";
-export { Contact } from "./contact";
+export { DesktopMenu } from "./desktop-menu";
+export { MobileMenu } from "./mobile-menu";
