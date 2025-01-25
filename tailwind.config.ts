@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        "card-sm": "500px",
+      },
       backgroundImage: {
         "gradient-radial":
           "radial-gradient(circle at 50% -70%, #179aff 0%, black 60%)",

@@ -20,7 +20,7 @@ export function Card({
 }: Props) {
   return (
     <motion.div
-      className="flex relative pt-[1.25rem] min-w-[31.3rem] overflow-hidden"
+      className="flex relative pt-[1.25rem] w-full card-sm:w-[31.3rem] overflow-hidden"
       initial="offscreen"
       whileInView="onscreen"
       viewport={{ amount: 0.4 }}

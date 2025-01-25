@@ -16,18 +16,6 @@ export const projects = [
     ),
   },
   {
-    title: "Ranking dos Políticos",
-    splashBackground: `#021d2e`,
-    cardBackground: `#d9d9d9`,
-    description:
-      "Plataforma desenvolvida em Next.js que avalia o desempenho de políticos brasileiros.",
-    imgElement: () => (
-      <div className="h-[13rem] flex items-center justify-center bg-[#d9d9d9] pb-[3rem]">
-        <img src="ranking.png" alt="Ranking dos Políticos" />
-      </div>
-    ),
-  },
-  {
     title: "Universal Forecast",
     splashBackground: `#015982`,
     cardBackground: `#ffffff`,
@@ -40,13 +28,26 @@ export const projects = [
     ),
   },
   {
+    title: "Ranking dos Políticos",
+    splashBackground: `#021d2e`,
+    cardBackground: `#d9d9d9`,
+    description:
+      "Plataforma desenvolvida em Next.js que avalia o desempenho de políticos brasileiros.",
+    imgElement: () => (
+      <div className="h-[13rem] flex items-center justify-center bg-[#d9d9d9] pb-[3rem]">
+        <img src="ranking.png" alt="Ranking dos Políticos" />
+      </div>
+    ),
+  },
+  {
     title: "AFPESP",
     description:
       "Plataforma desenvolvida em React Native para notícias relacionadas a funcionários públicos de São Paulo.",
     splashBackground: `#24a32c`,
-    cardBackground: `#d9d9d9`,
+    textColor: `#ffffff`,
+    cardBackground: `#1b1c24`,
     imgElement: () => (
-      <div className="h-[13rem] flex items-center justify-center pb-[3rem] bg-[#d9d9d9]">
+      <div className="h-[13rem] flex items-center justify-center pb-[3rem] bg-[#1b1c24]">
         <img src="afpesp.png" alt="AFPESP" className="size-[8rem]" />
       </div>
     ),

@@ -18,7 +18,7 @@ export function Header() {
           <h1 className="font-semibold text-base">Matheus Sena Rosa</h1>
         </div>
 
-        <nav className="flex items-center mr-8">
+        <nav className="items-center mr-8 hidden lg:flex">
           <ul className="flex gap-4">
             <NavbarItem text="Início" />
             <NavbarItem text="Sobre Mim" />
