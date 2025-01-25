@@ -1,5 +1,5 @@
 import { Header } from "@components";
-import { HomeSection, ProjectsSection } from "./components";
+import { AboutMeSection, HomeSection, ProjectsSection } from "./components";
 
 function Home() {
   return (
@@ -7,6 +7,8 @@ function Home() {
       <Header />
 
       <HomeSection />
+
+      <AboutMeSection />
 
       <ProjectsSection />
     </>

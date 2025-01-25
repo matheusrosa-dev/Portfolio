@@ -14,7 +14,11 @@ export default {
       backgroundImage: {
         "gradient-radial":
           "radial-gradient(circle at 50% -70%, #179aff 0%, black 60%)",
+        "gradient-projects":
+          "radial-gradient(circle at 50% -70%, #08385c 0%, black 60%)",
         "gradient-text": "linear-gradient(90deg, #8fd4ff, #179aff);",
+        "gradient-black":
+          "linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.87) 52%, rgba(0,0,0,1) 100%)",
       },
       boxShadow: {
         "project-card":

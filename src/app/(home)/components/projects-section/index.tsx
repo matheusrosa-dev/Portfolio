@@ -3,7 +3,7 @@ import { projects } from "./utils";
 
 export function ProjectsSection() {
   return (
-    <section className="min-h-screen bg-black flex flex-col items-center pb-14">
+    <section className="min-h-screen bg-gradient-projects flex flex-col items-center pb-14">
       <span className="flex w-[50rem] bg-gradient-text h-[1px] max-w-[90%]" />
 
       <h3 className="mt-10 mb-4 text-transparent bg-clip-text bg-gradient-text text-xl sm:text-2xl md:text-3xl">
