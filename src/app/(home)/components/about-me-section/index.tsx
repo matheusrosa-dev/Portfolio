@@ -33,9 +33,14 @@ export function AboutMeSection() {
             Quer saber mais sobre mim?
           </span>
 
-          <button className="mx-auto hover:opacity-70 duration-300">
+          <a
+            href="https://www.linkedin.com/in/matheusrosa-dev/"
+            target="_blank"
+            rel="noreferrer"
+            className="mx-auto hover:opacity-70 duration-300"
+          >
             Contato
-          </button>
+          </a>
         </div>
       </div>
     </section>

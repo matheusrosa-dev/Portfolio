@@ -15,9 +15,24 @@ const oswald = Oswald({
 });
 
 export const metadata: Metadata = {
-  title: "Matheus Sena Rosa",
-  description:
-    "Olá! Eu me chamo Matheus Sena Rosa e sou um desenvolvedor web. Aqui você encontra meus projetos e mais informações sobre mim.",
+  title: "Matheus Sena Rosa | Portfólio",
+
+  openGraph: {
+    type: "website",
+    locale: "pt_BR",
+    url: "https://matheusrosa-dev.com",
+    siteName: "Matheus Sena Rosa | Portfólio",
+    title: "Matheus Sena Rosa",
+    description:
+      "atuo na área de desenvolvimento de software há mais de 3 anos. Tenho experiência com desenvolvimento web e mobile usando React.js, React Native e Node.js. Estou sempre aprimorando meus conhecimentos e indo atrás de novos desafios.",
+    images: [
+      {
+        url: "",
+        width: 261,
+        height: 134,
+      },
+    ],
+  },
 };
 
 type Props = {
