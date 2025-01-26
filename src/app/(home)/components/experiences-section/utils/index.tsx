@@ -5,7 +5,7 @@ export const logos = [
     imgElement: () => (
       <img
         draggable={false}
-        src="react.png"
+        src="/experiences/react.png"
         alt="React"
         className="h-24 select-none"
       />
@@ -17,7 +17,7 @@ export const logos = [
       <div className="bg-white rounded-full">
         <img
           draggable={false}
-          src="next.png"
+          src="/experiences/next.png"
           alt="Next"
           className="h-24 select-none"
         />
@@ -29,7 +29,7 @@ export const logos = [
     imgElement: () => (
       <img
         draggable={false}
-        src="react.png"
+        src="/experiences/react.png"
         alt="React Native"
         className="h-24 select-none"
       />
@@ -40,19 +40,30 @@ export const logos = [
     imgElement: () => (
       <img
         draggable={false}
-        src="nest.png"
+        src="/experiences/nest.png"
         alt="Nest"
         className="h-24 select-none"
       />
     ),
   },
   {
-    title: "Tailwind",
+    title: "Node",
     imgElement: () => (
       <img
         draggable={false}
-        src="tailwind.png"
-        alt="Tailwind"
+        src="/experiences/node.png"
+        alt="Node"
+        className="h-24 select-none"
+      />
+    ),
+  },
+  {
+    title: "Docker",
+    imgElement: () => (
+      <img
+        draggable={false}
+        src="/experiences/docker.png"
+        alt="Docker"
         className="h-24 select-none"
       />
     ),
@@ -62,7 +73,7 @@ export const logos = [
     imgElement: () => (
       <img
         draggable={false}
-        src="javascript.png"
+        src="/experiences/javascript.png"
         alt="Javascript"
         className="h-24 select-none"
       />
@@ -73,8 +84,41 @@ export const logos = [
     imgElement: () => (
       <img
         draggable={false}
-        src="typescript.png"
+        src="/experiences/typescript.png"
         alt="Typescript"
+        className="h-24 select-none"
+      />
+    ),
+  },
+  {
+    title: "Linux",
+    imgElement: () => (
+      <img
+        draggable={false}
+        src="/experiences/linux.png"
+        alt="Linux"
+        className="h-24 select-none"
+      />
+    ),
+  },
+  {
+    title: "Git",
+    imgElement: () => (
+      <img
+        draggable={false}
+        src="/experiences/git.png"
+        alt="Git"
+        className="h-24 select-none"
+      />
+    ),
+  },
+  {
+    title: "Tailwind",
+    imgElement: () => (
+      <img
+        draggable={false}
+        src="/experiences/tailwind.png"
+        alt="Tailwind"
         className="h-24 select-none"
       />
     ),
@@ -84,19 +128,8 @@ export const logos = [
     imgElement: () => (
       <img
         draggable={false}
-        src="redux.png"
+        src="/experiences/redux.png"
         alt="Redux"
-        className="h-24 select-none"
-      />
-    ),
-  },
-  {
-    title: "Node",
-    imgElement: () => (
-      <img
-        draggable={false}
-        src="node.png"
-        alt="Node"
         className="h-24 select-none"
       />
     ),

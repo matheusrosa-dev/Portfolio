@@ -2,11 +2,11 @@
 import Marquee from "react-fast-marquee";
 
 const imagesSrc = [
-  "/tech1.jpg",
-  "/tech2.jpg",
-  "/tech3.jpg",
-  "/tech4.jpg",
-  "/tech5.jpg",
+  "/marquee/tech1.jpg",
+  "/marquee/tech2.jpg",
+  "/marquee/tech3.jpg",
+  "/marquee/tech4.jpg",
+  "/marquee/tech5.jpg",
 ];
 
 export function Marquees() {
@@ -17,7 +17,7 @@ export function Marquees() {
   return (
     <>
       <Marquee speed={20}>
-        {getImagesSrcByIndexesArray([0, 1, 2, 3, 4]).map((src, index) => (
+        {imagesSrc.map((src, index) => (
           <img
             src={src}
             key={`first-marquee-${index}`}
@@ -39,7 +39,7 @@ export function Marquees() {
       </Marquee>
 
       <Marquee speed={20}>
-        {getImagesSrcByIndexesArray([0, 1, 2, 3, 4]).map((src, index) => (
+        {imagesSrc.map((src, index) => (
           <img
             src={src}
             key={`three-marquee-${index}`}

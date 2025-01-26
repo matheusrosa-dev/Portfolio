@@ -9,7 +9,7 @@ export const projects = [
       "Plataforma desenvolvida em Next.js voltada a estudos online de concursos públicos.",
     imgElement: () => (
       <img
-        src="guruja.jpg"
+        src="projects/guruja.jpg"
         alt="Guruja"
         draggable="false"
         className="h-full w-full object-cover select-none"
@@ -24,7 +24,7 @@ export const projects = [
       "Plataforma desenvolvida em React.js voltada a gestão e administração.",
     imgElement: () => (
       <div className="h-[13rem] flex items-center justify-center pb-[3rem] select-none">
-        <img src="universal.jpg" alt="Universal" draggable="false" />
+        <img src="projects/universal.jpg" alt="Universal" draggable="false" />
       </div>
     ),
   },
@@ -36,7 +36,11 @@ export const projects = [
       "Plataforma desenvolvida em Next.js que avalia o desempenho de políticos brasileiros.",
     imgElement: () => (
       <div className="h-[13rem] flex items-center justify-center bg-[#d9d9d9] pb-[3rem] select-none">
-        <img src="ranking.png" alt="Ranking dos Políticos" draggable="false" />
+        <img
+          src="projects/ranking.png"
+          alt="Ranking dos Políticos"
+          draggable="false"
+        />
       </div>
     ),
   },
@@ -50,7 +54,7 @@ export const projects = [
     imgElement: () => (
       <div className="h-[13rem] flex items-center justify-center pb-[3rem] bg-[#1b1c24]">
         <img
-          src="afpesp.png"
+          src="projects/afpesp.png"
           alt="AFPESP"
           draggable="false"
           className="size-[8rem] select-none drag"
