@@ -14,10 +14,10 @@ const oswald = Oswald({
   weight: ["200", "300", "400", "500", "600", "700"],
 });
 
-// TODO: Add metadata
 export const metadata: Metadata = {
   title: "Matheus Sena Rosa",
-  description: "Teste",
+  description:
+    "Olá! Eu me chamo Matheus Sena Rosa e sou um desenvolvedor web. Aqui você encontra meus projetos e mais informações sobre mim.",
 };
 
 type Props = {
