@@ -1,6 +1,7 @@
 import { Header } from "@components";
 import {
   AboutMeSection,
+  ContactFooter,
   ExperiencesSection,
   HomeSection,
   ProjectsSection,
@@ -18,6 +19,8 @@ function Home() {
       <ProjectsSection />
 
       <ExperiencesSection />
+
+      <ContactFooter />
     </>
   );
 }

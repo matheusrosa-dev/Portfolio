@@ -14,7 +14,7 @@ export function Header() {
 
       <MobileMenu
         isOpen={isMobileMenuOpen}
-        onOpenMobileMenu={() => setIsMobileMenuOpen(false)}
+        onCloseMobileMenu={() => setIsMobileMenuOpen(false)}
       />
     </>
   );

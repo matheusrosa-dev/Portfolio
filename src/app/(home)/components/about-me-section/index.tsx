@@ -2,7 +2,10 @@ import { Marquees } from "./components";
 
 export function AboutMeSection() {
   return (
-    <section className="h-screen bg-black flex flex-col items-center relative overflow-hidden">
+    <section
+      id="about-me"
+      className="h-screen bg-black flex flex-col items-center relative overflow-hidden"
+    >
       <span className="flex w-[50rem] bg-gradient-text h-[1px] max-w-[90%] z-[2]" />
 
       <div className="absolute w-full h-full z-0">

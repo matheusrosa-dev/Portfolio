@@ -5,10 +5,13 @@ import { logos } from "./utils";
 
 export function ExperiencesSection() {
   return (
-    <section className="min-h-screen bg-gradient-projects flex flex-col items-center pb-14">
+    <section
+      id="experiences"
+      className="min-h-screen bg-gradient-projects flex flex-col items-center pb-14"
+    >
       <span className="flex w-[50rem] bg-gradient-text h-[1px] max-w-[90%]" />
 
-      <div className="my-auto">
+      <div className="mt-10 md:my-auto">
         <h3 className="text-center mb-12 text-transparent bg-clip-text bg-gradient-text text-xl sm:text-2xl md:text-3xl">
           Experiências
         </h3>
