@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     siteName: "Matheus Sena Rosa | Portfólio",
     title: "Matheus Sena Rosa",
     description:
-      "atuo na área de desenvolvimento de software há mais de 3 anos. Tenho experiência com desenvolvimento web e mobile usando React.js, React Native e Node.js. Estou sempre aprimorando meus conhecimentos e indo atrás de novos desafios.",
+      "Atuo na área de desenvolvimento de software há mais de 3 anos. Tenho experiência com desenvolvimento web e mobile usando React.js, React Native e Node.js. Estou sempre aprimorando meus conhecimentos e indo atrás de novos desafios.",
     images: [
       {
         url: "https://raw.githubusercontent.com/matheusrosa-dev/Portfolio/refs/heads/master/public/full-logo.png",
