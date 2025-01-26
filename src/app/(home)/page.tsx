@@ -1,5 +1,10 @@
 import { Header } from "@components";
-import { AboutMeSection, HomeSection, ProjectsSection } from "./components";
+import {
+  AboutMeSection,
+  ExperiencesSection,
+  HomeSection,
+  ProjectsSection,
+} from "./components";
 
 function Home() {
   return (
@@ -11,6 +16,8 @@ function Home() {
       <AboutMeSection />
 
       <ProjectsSection />
+
+      <ExperiencesSection />
     </>
   );
 }

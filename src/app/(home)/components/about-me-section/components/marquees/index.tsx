@@ -31,7 +31,7 @@ export function Marquees() {
         {getImagesSrcByIndexesArray([3, 1, 4, 0, 2]).map((src, index) => (
           <img
             src={src}
-            key={`first-marquee-${index}`}
+            key={`second-marquee-${index}`}
             alt="Linhas de código em uma tela de computador"
             className="h-[30vh] border-black border-4"
           />
@@ -42,7 +42,7 @@ export function Marquees() {
         {getImagesSrcByIndexesArray([0, 1, 2, 3, 4]).map((src, index) => (
           <img
             src={src}
-            key={`first-marquee-${index}`}
+            key={`three-marquee-${index}`}
             alt="Linhas de código em uma tela de computador"
             className="h-[30vh] border-black border-4"
           />
@@ -53,7 +53,7 @@ export function Marquees() {
         {getImagesSrcByIndexesArray([3, 1, 4, 0, 2]).map((src, index) => (
           <img
             src={src}
-            key={`first-marquee-${index}`}
+            key={`fourth-marquee-${index}`}
             alt="Linhas de código em uma tela de computador"
             className="h-[30vh] border-black border-4"
           />
