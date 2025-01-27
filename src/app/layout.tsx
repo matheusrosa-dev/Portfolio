@@ -27,8 +27,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "https://raw.githubusercontent.com/matheusrosa-dev/Portfolio/refs/heads/master/public/full-logo.png",
-        width: 300,
-        height: 156,
+        width: 577,
+        height: 300,
       },
     ],
   },
