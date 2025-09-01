@@ -69,67 +69,23 @@ export const logos = [
     ),
   },
   {
-    title: "Javascript",
+    title: "PostgreSQL",
     imgElement: () => (
       <img
         draggable={false}
-        src="/experiences/javascript.png"
-        alt="Javascript"
+        src="/experiences/postgres.png"
+        alt="PostgreSQL"
         className="h-24 select-none"
       />
     ),
   },
   {
-    title: "Typescript",
+    title: "AWS",
     imgElement: () => (
       <img
         draggable={false}
-        src="/experiences/typescript.png"
-        alt="Typescript"
-        className="h-24 select-none"
-      />
-    ),
-  },
-  {
-    title: "Linux",
-    imgElement: () => (
-      <img
-        draggable={false}
-        src="/experiences/linux.png"
-        alt="Linux"
-        className="h-24 select-none"
-      />
-    ),
-  },
-  {
-    title: "Git",
-    imgElement: () => (
-      <img
-        draggable={false}
-        src="/experiences/git.png"
-        alt="Git"
-        className="h-24 select-none"
-      />
-    ),
-  },
-  {
-    title: "Tailwind",
-    imgElement: () => (
-      <img
-        draggable={false}
-        src="/experiences/tailwind.png"
-        alt="Tailwind"
-        className="h-24 select-none"
-      />
-    ),
-  },
-  {
-    title: "Redux",
-    imgElement: () => (
-      <img
-        draggable={false}
-        src="/experiences/redux.png"
-        alt="Redux"
+        src="/experiences/aws.png"
+        alt="AWS"
         className="h-24 select-none"
       />
     ),

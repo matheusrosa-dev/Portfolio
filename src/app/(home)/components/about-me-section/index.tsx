@@ -21,11 +21,13 @@ export function AboutMeSection() {
 
         <h4 className="text-4xl font-medium text-center mt-4 mb-2">Olá!</h4>
 
-        <p className="text-center text-lg w-[90%] max-w-[36rem] mx-auto">
+        <p className="text-center text-lg w-[100%] max-w-[36rem] mx-auto leading-8">
           Me chamo Matheus e atuo na área de desenvolvimento de software há mais
-          de 3 anos. Tenho experiência com desenvolvimento web e mobile usando
-          React.js, React Native e Node.js. Estou sempre aprimorando meus
-          conhecimentos e indo atrás de novos desafios.
+          de 4 anos. Tenho experiência com desenvolvimento Full-stack com foco
+          em React e Node. No meu trabalho atual, eu crio e aprimoro aplicações
+          sempre focando em agilidade, performance e qualidade buscando sempre
+          agregar valor à empresa. Gosto de desafios e, por isso, me adapto
+          rápido a qualquer tipo de projeto.
         </p>
 
         <div className="mt-4 flex flex-col justify-center gap-1">
