@@ -10,7 +10,7 @@ export function ProjectsSection() {
       <span className="flex w-[50rem] bg-gradient-text h-[1px] max-w-[90%]" />
 
       <h3 className="mt-10 mb-4 text-transparent bg-clip-text bg-gradient-text text-xl sm:text-2xl md:text-3xl">
-        Projetos que participei
+        Projetos em que participei
       </h3>
 
       <div className="my-auto flex w-full card-sm:w-auto">
